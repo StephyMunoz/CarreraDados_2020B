@@ -116,6 +116,7 @@ public class CarreraDados {
                     }
 
                 }
+                // Posicion actual del jugador2
                 if (sumjug2 == i) {
                     System.out.print(" o");
                 }

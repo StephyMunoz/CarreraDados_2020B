@@ -14,8 +14,12 @@ public class CarreraDados {
         int sumjug1 = 0, sumjug2 = 0, jug1, jug2, i, aux1, aux2;
 
         System.out.print(0);
+<<<<<<< Updated upstream
         //A cada jugador se le asigna un caracter especial
         System.out.print(" x   o");
+=======
+        System.out.print(" x   o"); // jugadores posicion inicial
+>>>>>>> Stashed changes
         System.out.println("");
         for (int j = 1; j <= meta; j++) {
             System.out.println(j);
@@ -117,12 +121,12 @@ public class CarreraDados {
                 }
                 System.out.println("");
             }
-        } while ((sumjug1 < meta) && (sumjug2 < meta));
+        } while ((sumjug1 < meta) && (sumjug2 < meta)); //  posicion de jugadores menor que la posicion final
         if (sumjug1 == meta) {
-            System.out.println("\nEl ganador es el jugador 1");
+            System.out.println("\nEl ganador es el jugador 1"); //Si  posicion jugador1 es igual al de la meta
 
         } else if (sumjug2 == meta) {
-            System.out.println("\nEl ganador es eljugador 2");
+            System.out.println("\nEl ganador es eljugador 2"); // Si posicion jugador2 es igual al de la meta
         }
     }
 

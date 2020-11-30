@@ -14,12 +14,12 @@ public class CarreraDados {
         int sumjug1 = 0, sumjug2 = 0, jug1, jug2, i, aux1, aux2;
 
         System.out.print(0);
-<<<<<<< Updated upstream
+
         //A cada jugador se le asigna un caracter especial
         System.out.print(" x   o");
-=======
+
         System.out.print(" x   o"); // jugadores posicion inicial
->>>>>>> Stashed changes
+
         System.out.println("");
         for (int j = 1; j <= meta; j++) {
             System.out.println(j);

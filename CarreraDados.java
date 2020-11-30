@@ -132,6 +132,7 @@ public class CarreraDados {
         return valor_dado;
     }
 
+    //Funcion que realiza el lanzamiento de dos dados
     public static int monopolyRoll() {
         int sum = 0, cont = 0, x, y;
         do {

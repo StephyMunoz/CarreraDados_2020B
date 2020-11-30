@@ -3,6 +3,7 @@ los jugadores rodarán dados por turnos y avanzarán según el número obtenido 
 Si un jugador obtiene el mismo número en ambos dados, puede rodar de nuevo
 Si un jugador obtiene el mismo número tres veces, regresará al inicio
 Si un jugador llega a la posición del otro luego de rodar, el jugador que rodó volverá al inicio
+Si el jugador esta en una posicion multiplo de diez puede ocuparla con otro jugador sin que ninguno regrese al inicio
 El juego termina cuando algún jugador llega al fin del tablero, el número final no tiene que ser exacto
 
 ---Funciones---

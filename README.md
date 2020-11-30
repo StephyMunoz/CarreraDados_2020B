@@ -1,4 +1,4 @@
-Pequeña aplicación de consola que permite visualizar el avance de dos jugadores en un tablero de longitud a elección
+Pequeña aplicación de consola que permite visualizar el avance de dos jugadores en un tablero de longitud a elección /n
 los jugadores rodarán dados por turnos y avanzarán según el número obtenido aleatoriamente
 Si un jugador obtiene el mismo número en ambos dados, puede rodar de nuevo
 Si un jugador obtiene el mismo número tres veces, regresará al inicio

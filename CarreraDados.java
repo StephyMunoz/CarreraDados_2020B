@@ -5,10 +5,12 @@ import java.util.Scanner;
 public class CarreraDados {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+        //Se desea saber cual es el numero de meta
         System.out.println("Ingrese el numero de meta que desee: ");
         int meta = Integer.valueOf(scanner.nextLine());
-
+        
         String entrada = "";
+        //Se declaran variables de jugadores, suma de puntajes y demas auxiliares que se necesitan
         int sumjug1 = 0, sumjug2 = 0, jug1, jug2, i, aux1, aux2;
 
         System.out.print(0);

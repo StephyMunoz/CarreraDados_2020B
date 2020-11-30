@@ -132,20 +132,20 @@ public class CarreraDados {
     }
 
     //Funcion para obtener numeros randomicos de 1 a 6 incluidos
-    public static int dados() {
-        int valor_dado = (int) Math.floor(Math.random() * 6 + 1);
-        return valor_dado;
+    public static int dice() {
+        int value = (int) Math.floor(Math.random() * 6 + 1);
+        return value;
     }
 
     //Funcion que realiza el lanzamiento de dos dados
     public static int monopolyRoll() {
-        int sum = 0, cont = 0, x, y;
+        int sum = 0, count = 0, x, y;
         do {
-            x = dados();
-            y = dados();
+            x = dice();
+            y = dice();
             sum = sum + x + y;
-            cont++;
-            if (cont == 3) {
+            count++;
+            if (count == 3) {
                 System.out.println("Triple dobles. A la CARCEL. Vuelve al inicio");
                 return 0;
             }

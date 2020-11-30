@@ -14,6 +14,7 @@ public class CarreraDados {
         int sumjug1 = 0, sumjug2 = 0, jug1, jug2, i, aux1, aux2;
 
         System.out.print(0);
+        //A cada jugador se le asigna un caracter especial
         System.out.print(" x   o");
         System.out.println("");
         for (int j = 1; j <= meta; j++) {
@@ -125,6 +126,7 @@ public class CarreraDados {
         }
     }
 
+    //Funcion para obtener numeros randomicos de 1 a 6 incluidos
     public static int dados() {
         int valor_dado = (int) Math.floor(Math.random() * 6 + 1);
         return valor_dado;
